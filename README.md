@@ -1,1 +1,1 @@
-# VueShop
+# VueGameNews

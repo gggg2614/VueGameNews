@@ -1,10 +1,10 @@
 <template>
   <div class="index">
     <el-container>
-      <el-header>
+      <el-header class="header">
         <Nav></Nav>
       </el-header>
-      <el-main>
+      <el-main class="main">
         <Main></Main>
       </el-main>
       <el-footer>
@@ -28,5 +28,17 @@ export default {
 .index{
   text-align: center;
   background-color: $bgc;
+  a{
+    text-decoration: none;
+  }
+
+}
+  .main{
+    background-color: #f2f2f3;
+    margin: 0 auto;
+    padding: 10px 20px 0;
+    width: auto
+  }
+.header{
 }
 </style>
